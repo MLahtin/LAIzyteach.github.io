@@ -1,0 +1,36 @@
+body {
+ background-color: #f7eded;
+ margin: 0 10%;
+ font-family: sans-serif;
+ }
+ #ylapalkki{
+    height: 20%;
+    width: 100%;
+    border: 1px;
+ }
+#logo{
+    height: 100%;
+    width: 25%;
+    border: 1px;
+}
+#slogan{
+    height: 10%;
+    width: 70%;
+    border: 1px;
+}
+nav{
+    height: 80%;
+    width: 70%;
+    border: 1px;
+}
+
+ #body{
+    height: 70%;
+    width: 100%;
+    border: 1px;
+ }
+ footer{
+    height: 10%;
+    width: 100%;
+    border: 1px;
+ }
