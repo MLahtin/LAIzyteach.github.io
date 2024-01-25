@@ -13,6 +13,11 @@ body {
     width: 25%;
     border: 1px;
 }
+.logo{
+	height: 100%;
+    width: 25%;
+    border: 1px;
+}
 #slogan{
     height: 10%;
     width: 70%;
