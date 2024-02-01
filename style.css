@@ -83,5 +83,16 @@ nav{
 #info{
 	padding:20px;
 }
-
-
+footer{
+	display:flex;
+	padding:5px;
+}
+#pienilogo{
+	float:left;
+	padding:5px;
+	
+}
+#yhteystiedot{
+	padding:5px;
+	margin-top:0px;
+}
