@@ -100,7 +100,7 @@ footer{
 #submenu{
     visibility: hidden;
     display: grid;
-	position: absolute;
+	position: sticky;
     float: left;
 }
 li:hover ul#submenu{
