@@ -97,10 +97,9 @@ footer{
 .dropdownmenu li:hover a{
     background: #34495e;
 }
-#submenu{
+#submenu{	
     visibility: hidden;
     display: grid;
-	position: sticky;
     float: left;
 }
 li:hover ul#submenu{
