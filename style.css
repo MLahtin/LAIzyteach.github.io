@@ -13,7 +13,6 @@ body{
 	width:100%;
 	height:20%;
 	padding:10px;
-	margin:10px;
 }
 
 header{
@@ -30,7 +29,7 @@ header{
 	float:left;
 }
 #slogan{
-	width: 75 %;
+	width: 75%;
 	height:20%;
 	display:right;
 	border-style:solid;
@@ -41,37 +40,11 @@ header{
 	height:55%;
 	border-style:solid;
 	float:left;
-	padding:30px;
 }
 nav{
 	width:70%;
 	height:60%;
 	display: inline;
-}
-.btn{
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    background: #393a3a;
-    width: 20%;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #f0f0f0;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-}
-.btn:hover, .btn:focus, .btn:active{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 #runko{
 	display:flex;
@@ -95,4 +68,42 @@ footer{
 #yhteystiedot{
 	padding:5px;
 	margin-top:0px;
+}
+.dropdownmenu li{
+    float: left;
+    position: relative;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.dropdownmenu ul{
+    background: gray;
+    list-style: none;
+    width: 60%;
+
+}
+.dropdownmenu a{
+    background: #30a6e6;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 20%;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+.dropdownmenu li:hover a{
+    background: #34495e;
+}
+#submenu{
+    visibility: hidden;
+    display: grid;
+    float: left;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
 }
