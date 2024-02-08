@@ -41,7 +41,6 @@ h4 {
 	font-size: 1.3vw;
 }
 footer{
-    width: 100%;
     padding: 10px;
     margin: 0px;
     background-color: #373737;
@@ -64,19 +63,6 @@ footer{
         color: #8b8b8b;
     }
     }
-
-@media screen and (min-width: 701px){
-    img{
-        max-width: 100%;
-        max-height: 50%;
-    }
-    }
-@media screen and (max-width: 700px){
-        img{
-            width: 50%;
-            height: 50%;
-        }
-        }
 
 
 form{
