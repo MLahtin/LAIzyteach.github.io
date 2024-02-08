@@ -15,7 +15,6 @@ margin:0px;
 	}
 	#sivu{
 	width:100%;
-	min-width:50em;
 	padding:0px;
 	margin:0px;
 	border-style:solid;	
@@ -49,7 +48,6 @@ margin:0px;
 #yla{
 	display:flex;
 	width:100%;
-	min-width:50em;
 	height:20%;
 	padding:0px;
 	margin:0px;
