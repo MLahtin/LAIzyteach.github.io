@@ -6,9 +6,59 @@ margin:0px;
 	visibility:visible;
 	float:left;
 	}
+.dropmobile li{
+	list-style:none;
+    float: left;
+    position: relative;
+    width: 15%;
+    margin: 5px;
+	margin-top:0px;
+    padding: 5px;
+    text-align: center;
+	min-width:10%;
+}
+.dropmobile ul{
+    /*background: gray;*/
+    list-style: none;
+	display: flex;
+	width:41em;
+}
+.dropmobile a{
+    background: #393a3a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    padding: 10%;
+    text-decoration: none;
+    transition: all 0.25s ease;
+	border-style:inset;
+	border-radius:5px;
+	border-color:blue;
+}
+
+#mobile{
+	margin-top:0px;
+}
+#submenu_mobile{
+	visibility:hidden;
+	display:inline-block;
+	float:left;
+}
+	
+li:hover ul#submenu_mobile{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+
+
+
 	#buttons{
-	height:7.3em;
+	height:7.6em;
 	}
+	
 	#normaali{
 		visibility:hidden;
 		float:right;
@@ -26,6 +76,50 @@ margin:0px;
 	visibility:hidden;
 	float:right;
 	}
+	.dropdownmenu li{
+    float: left;
+    position: relative;
+    width: 15%;
+    margin: 5px;
+	margin-top:0px;
+    padding: 5px;
+    text-align: center;
+	min-width:10%;
+}
+.dropdownmenu ul{
+    /*background: gray;*/
+    list-style: none;
+	width: 50em;
+
+}
+.dropdownmenu a{
+    background: #393a3a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    padding: 10%;
+    text-decoration: none;
+    transition: all 0.25s ease;
+	border-style:inset;
+	border-radius:5px;
+	border-color:blue;
+}
+.dropdownmenu li:hover a{
+    /*background: #393a3a;*/
+}
+#submenu{	
+    visibility: hidden;
+    display: grid;
+    float: left;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+	
 	#buttons {
 	height:6.3em;
 	}
@@ -108,64 +202,6 @@ footer{
 #yhteystiedot{
 	padding:5px;
 	margin-top:0px;
-}
-
-.dropdownmenu li{
-    float: left;
-    position: relative;
-    width: 15%;
-    margin: 5px;
-	margin-top:0px;
-    padding: 5px;
-    text-align: center;
-	min-width:10%;
-}
-.dropdownmenu ul{
-    /*background: gray;*/
-    list-style: none;
-	width: 50em;
-
-}
-.dropdownmenu a{
-    background: #393a3a;
-    color: white;
-    display: block;
-    font-weight: bold;
-    font-size: 0.8em;
-    font-family: sans-serif;
-    padding: 10%;
-    text-decoration: none;
-    transition: all 0.25s ease;
-	border-style:inset;
-	border-radius:5px;
-	border-color:blue;
-}
-.dropdownmenu li:hover a{
-    /*background: #393a3a;*/
-}
-#submenu{	
-    visibility: hidden;
-    display: grid;
-    float: left;
-}
-li:hover ul#submenu{
-    opacity: 1;
-    top: 80px;
-    visibility: visible;
-}
-#mobile{
-	margin-top:0px;
-}
-#submenu_mobile{
-	visibility:hidden;
-	display:inline-block;
-	float:left;
-}
-	
-li:hover ul#submenu_mobile{
-    opacity: 1;
-    top: 80px;
-    visibility: visible;
 }
 
 
