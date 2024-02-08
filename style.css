@@ -1,7 +1,76 @@
 body{
 margin:0px;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width:392px){
+	#sivu{
+		width=100%;
+	}
+	.dropmobile li{
+	list-style:none;
+    float: left;
+    position: relative;
+    width: 15%;
+    margin: 5px;
+	margin-top:0px;
+    padding: 5px;
+    text-align: center;
+	min-width:10%;
+}
+.dropmobile ul{
+    /*background: gray;*/
+    list-style: none;
+	display: grid;
+	width:20em;
+}
+.dropmobile a{
+    background: #393a3a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 0.3em;
+    font-family: sans-serif;
+    padding: 0%;
+    text-decoration: none;
+    transition: all 0.25s ease;
+	border-style:inset;
+	border-color:blue;
+	border-radius:5px;
+}
+
+#mobile{
+	margin-top:0px;
+}
+#submenu_mobile{
+	visibility:hidden;
+	display:inline-block;
+	float:left;
+}
+	
+li:hover ul#submenu_mobile{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+
+
+
+	#buttons{
+	height:4.6em;
+	}
+	
+	#normaali{
+		visibility:hidden;
+		float:right;
+	}
+	#sivu{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	border-style:solid;	
+}
+
+}
+@media screen and (min-width: 700px){
 	#mobile{
 	visibility:visible;
 	float:left;
@@ -21,7 +90,7 @@ margin:0px;
     /*background: gray;*/
     list-style: none;
 	display: flex;
-	width:30em;
+	width:20em;
 }
 .dropmobile a{
     background: #393a3a;
@@ -203,5 +272,6 @@ footer{
 	padding:5px;
 	margin-top:0px;
 }
+
 
 
