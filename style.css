@@ -247,25 +247,23 @@ header{
 	display:flex;
 	height:100%;
 	width:96%;
-	border-style:solid;
-	padding:0.7em;
+	padding:0.1em;
 	margin:0.7em;
 }
 #info{
-	padding:20px;
+	padding:0.2em;
 }
 footer{
 	display:flex;
-	padding:5px;
 	max-height:30em;
 }
 #pienilogo{
 	float:left;
-	padding:5px; 
+	padding:0.1em; 
 	
 }
 #yhteystiedot{
-	padding:5px;
+	padding:0.2em;
 	margin-top:0px;
 }
 #kysely{
