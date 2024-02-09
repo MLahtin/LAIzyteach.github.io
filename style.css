@@ -74,10 +74,7 @@ li:hover ul#submenu{
 	margin:0px;
 	border-style:solid;	
 }
-#runko{
-width=97%;
-margin=2px";
-}
+
 
 }
 @media screen and (min-width: 700px){
@@ -249,7 +246,7 @@ header{
 #runko{
 	display:flex;
 	height:100%;
-	width:97%;
+	width:90%;
 	border-style:solid;
 	padding:10px;
 	margin:0.7em;
