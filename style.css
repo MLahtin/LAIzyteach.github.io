@@ -58,6 +58,15 @@ li:hover ul#submenu{
 	#buttons{
 	height:4.6em;
 	}
+.logo img{
+	height:100%;
+	width:100%;
+	max-height:10em;
+}
+.logo a{
+	height:100%;
+	width:100%;
+}
 	
 	#sivu{
 	width:100%;
