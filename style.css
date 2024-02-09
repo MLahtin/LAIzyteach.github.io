@@ -5,24 +5,25 @@ margin:0px;
 	#sivu{
 		width=100%;
 	}
-	.dropmobile li{
+	.dropdownmenu li{
 	list-style:none;
     float: left;
-    position: relative;
-    width: 15%;
-    margin: 5px;
+    margin: 0px;
 	margin-top:0px;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 	min-width:10%;
+	background-color:#373737;
 }
-.dropmobile ul{
+
+.dropdownmenu ul{
     /*background: gray;*/
     list-style: none;
 	display: grid;
 	width:20em;
+	
 }
-.dropmobile a{
+.dropdownmenu a{
     background: #393a3a;
     color: white;
     display: block;
@@ -36,32 +37,28 @@ margin:0px;
 	border-color:blue;
 	border-radius:5px;
 }
-
-#mobile{
-	margin-top:0px;
+.dropdownmenu li:hover a{
+    background: #393a3a;
 }
-#submenu_mobile{
+#normaali {
 	visibility:hidden;
-	display:inline-block;
-	float:left;
 }
-	
-li:hover ul#submenu_mobile{
+
+ul:hover li#normaali{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+li:hover ul#submenu{
     opacity: 1;
     top: 80px;
     visibility: visible;
 }
 
-
-
 	#buttons{
 	height:4.6em;
 	}
 	
-	#normaali{
-		visibility:hidden;
-		float:right;
-	}
 	#sivu{
 	width:100%;
 	padding:0px;
@@ -75,7 +72,7 @@ li:hover ul#submenu_mobile{
 	visibility:visible;
 	float:left;
 	}
-.dropmobile li{
+.dropdownmenu li{
 	list-style:none;
     float: left;
     position: relative;
@@ -86,52 +83,35 @@ li:hover ul#submenu_mobile{
     text-align: center;
 	min-width:10%;
 }
-.dropmobile ul{
+.dropdownmenu ul{
     /*background: gray;*/
     list-style: none;
 	display: flex;
 	width:20em;
 }
-.dropmobile a{
+.dropdownmenu a{
     background: #393a3a;
     color: white;
     display: block;
     font-weight: bold;
-    font-size: 0.7em;
+    font-size: 0.3em;
     font-family: sans-serif;
-    padding: 10%;
+    padding: 0%;
     text-decoration: none;
     transition: all 0.25s ease;
 	border-style:inset;
-	border-radius:5px;
 	border-color:blue;
+	border-radius:5px;
 }
-
-#mobile{
-	margin-top:0px;
-}
-#submenu_mobile{
+#valikko{
 	visibility:hidden;
-	display:inline-block;
-	float:left;
 }
-	
-li:hover ul#submenu_mobile{
-    opacity: 1;
-    top: 80px;
-    visibility: visible;
-}
-
 
 
 	#buttons{
 	height:7.6em;
 	}
 	
-	#normaali{
-		visibility:hidden;
-		float:right;
-	}
 	#sivu{
 	width:100%;
 	padding:0px;
@@ -141,10 +121,7 @@ li:hover ul#submenu_mobile{
 }
 
 @media screen and (min-width: 701px){
-    #mobile{
-	visibility:hidden;
-	float:right;
-	}
+    
 	.dropdownmenu li{
     float: left;
     position: relative;
@@ -180,7 +157,7 @@ li:hover ul#submenu_mobile{
 }
 #submenu{	
     visibility: hidden;
-    display: grid;
+    display: flex;
     float: left;
 }
 li:hover ul#submenu{
