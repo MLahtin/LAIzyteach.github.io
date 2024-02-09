@@ -248,7 +248,7 @@ header{
 	width:95%;
 	border-style:solid;
 	padding:10px;
-	margin:10px;
+	margin:0px;
 }
 #info{
 	padding:20px;
@@ -271,5 +271,25 @@ footer{
 	width:100%;
 	height:100%;
 }
+#kyselylomake{
+	width:100%;
+}
+	
+.kyselylomake {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100%;
+}
+	
 
+.ikkuna {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 
