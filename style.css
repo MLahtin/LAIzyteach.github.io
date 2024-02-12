@@ -30,12 +30,13 @@ margin:0px;
     font-weight: bold;
     font-size: 0.3em;
     font-family: sans-serif;
-    padding: 0%;
+    padding: 3em;
     text-decoration: none;
     transition: all 0.25s ease;
 	border-style:inset;
 	border-color:blue;
 	border-radius:5px;
+	position:relative;
 }
 .dropdownmenu li:hover a{
     background: #393a3a;
