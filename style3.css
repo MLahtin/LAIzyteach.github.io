@@ -1,0 +1,19 @@
+#kuvat{
+    display:flex;
+    position:relative;
+    padding: 0.5em;
+}
+.kuvat{
+    width: 16%;
+    padding: 0.8em;
+    
+}
+.naama{
+    border-radius: 20%;
+
+
+
+}
+
+
+
