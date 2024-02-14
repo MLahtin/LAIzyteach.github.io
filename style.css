@@ -34,7 +34,7 @@ margin:0px;
     text-decoration: none;
     transition: all 0.25s ease;
 	border-style:inset;
-	border-color:blue;
+	border-color:#7ED957;
 	border-radius:5px;
 	position:relative;
 }
@@ -119,7 +119,6 @@ form{
 }
 	#kuvat{
     display:grid;
-    position:relative;
     padding: 0.5em;
 }
 .kuvat{
@@ -215,7 +214,7 @@ form{
     transition: all 0.25s ease;
 	border-style:inset;
 	border-radius:5px;
-	border-color:blue;
+	border-color:#7ED957;
 }
 .dropdownmenu li:hover a{
     /*background: #393a3a;*/
