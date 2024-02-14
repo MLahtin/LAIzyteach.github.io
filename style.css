@@ -177,7 +177,7 @@ form{
 	.dropdownmenu li{
     float: left;
     position: relative;
-    width: 15%;
+    width: 9em;
     margin: 5px;
 	margin-top:0px;
     padding: 5px;
@@ -187,7 +187,6 @@ form{
 .dropdownmenu ul{
     /*background: gray;*/
     list-style: none;
-	width: 50em;
 
 }
 .dropdownmenu a{
