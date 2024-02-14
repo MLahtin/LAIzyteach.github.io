@@ -392,7 +392,7 @@ a.linkki:visited{
 }
 #kysely{
 	width:100%;
-	height:100%;
+	height:97%;
 	padding:0.5em;
 }
 #kyselylomake{
@@ -403,7 +403,7 @@ a.linkki:visited{
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 30em;
+  height: 31em;
 }
 .ikkuna {
   width: 100%;
