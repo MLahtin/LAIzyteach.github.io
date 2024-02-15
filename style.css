@@ -1,7 +1,7 @@
 body{
 margin:0px;
 }
-@media screen and (max-width:759px){
+@media screen and (max-width:810px){
 	#sivu{
 		width:100%;
 	}
@@ -12,7 +12,7 @@ margin:0px;
 	margin-top:0px;
     padding: 0px;
     text-align: center;
-	min-width:10%;
+	width:96%;
 	background-color:#373737;
 }
 
@@ -30,7 +30,7 @@ margin:0px;
     font-weight: bold;
     font-size: 0.7em;
     font-family: sans-serif;
-    padding: 1em;
+    padding: 0.8em;
     text-decoration: none;
     transition: all 0.25s ease;
 	border-style:inset;
@@ -185,12 +185,12 @@ form{
 }
 }
 */
-@media screen and (min-width: 760px){
+@media screen and (min-width: 811px){
     
 	.dropdownmenu li{
     float: left;
     position: relative;
-    width: 9em;
+    width: 14%;
     margin: 5px;
 	margin-top:0px;
     padding: 5px;
