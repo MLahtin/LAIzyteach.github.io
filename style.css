@@ -33,7 +33,7 @@ margin:0px;
     text-decoration: none;
     transition: all 0.25s ease;
 	border-style:inset;
-	border-color:#7ED957;
+	border-color:#5FAF3C;
 	border-radius:5px;
 	position:relative;
 }
@@ -80,7 +80,7 @@ h2{
 	font-size: 2.1em;
   	font-weight: 400;
   	font-style: normal;
-	color:#7ED957;
+	color:#5FAF3C;
   	font-variation-settings:
     "wdth" 100;
 }
@@ -213,7 +213,7 @@ form{
     transition: all 0.25s ease;
 	border-style:inset;
 	border-radius:5px;
-	border-color:#7ED957;
+	border-color:#5FAF3C;
 }
 .dropdownmenu li:hover a{
     /*background: #393a3a;*/
@@ -261,7 +261,7 @@ h2{
 	font-size: 3em;
   	font-weight: 400;
   	font-style: normal;
-	color:#7ED957;
+	color:#5FAF3C;
   	font-variation-settings:
     "wdth" 100;
 }
@@ -276,7 +276,7 @@ h4 {
     font-weight: 500;
     font-style: normal;
     font-size: 1.2em;
-    color:#8b8b8b;
+    color:#ababab;
 }
 .article{
     font-family: "Roboto", sans-serif;
@@ -289,7 +289,7 @@ h4 {
     font-weight: 400;
     font-style: normal;
 	font-size: 0.9em;
-    color: #8b8b8b;
+    color:#ababab
 }
 form{
     font-family: "Roboto", sans-serif;
@@ -344,7 +344,7 @@ header{
 }
 */
 #buttons {
-	width:100%;
+	width:99.7%;
 	min-width:10em;
 	border-style:solid;
 	padding:0px;
@@ -373,10 +373,10 @@ footer{
     background-color: #373737;
 }
 a.linkki:link{
-    color: #8b8b8b;
+    color:#ababab
 }
 a.linkki:visited{
-    color:#7ED957;
+    color:#5FAF3C;
 }
 #pienilogo{
 	float:left;
